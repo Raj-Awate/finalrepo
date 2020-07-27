@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+#header{
+    width: auto;
+    height: 50px;
+    padding: 20px 30% 10px 30%;
+    background-color:#000;
+    color: rebeccapurple;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: rebeccapurple;
+    background-color: black;
+    margin-top: -15px;
+}
+
+#quest{   
+    background-color:rgb(5, 15, 26);
+    color: rebeccapurple;
+    padding-top :15px;
+    padding-left: 15px;
+    color: rebeccapurple;
+    margin-top: -22px;
+}
+
+label
+{   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input
+{   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button
+{ 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#partic
+{
+    display: none;
+}
+table
+{
+    border-color:black ;
+}

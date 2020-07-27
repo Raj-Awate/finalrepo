@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid Hub</title>
+	<link rel="stylesheet" type="text/css" href="qstyle.css">
+</head>
+
+<body>
+
+<div id="header" href="index.html">
+		COVID INFO HUB
+</div>
+<div id="Question">
+<div>
+<h1>
+    Health Questionaire
+</h1>
+</div>
+<div id="quest">
+    <form id="naire">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label>1.Do you have a fever, or have you felt feverish recently?</label><br>
+        <input type="radio" id="Q1" name="Q1" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q1" name="Q1" value="No">
+        <label for="No">No</label><br>
+        <label>2.Do you have a cough?</label><br>
+        <input type="radio" id="Q2" name="Q2" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q2" name="Q2" value="No">
+        <label for="No">No</label><br>
+        <label>3.Are you having shortness of breath or any difficulty
+            breathing?</label><br>
+        <input type="radio" id="Q3" name="Q3" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q3" name="Q3" value="No">
+        <label for="No">No</label><br>
+        <label>4.Do you have chills or repeated shaking with chills?</label><br>
+        <input type="radio" id="Q4" name="Q4" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q4" name="Q4" value="No">
+        <label for="No">No</label><br>
+        <label>5.Do you have any muscle pain?</label><br>
+        <input type="radio" id="Q5" name="Q5" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q5" name="Q5" value="No">
+        <label for="No">No</label><br>
+        <label>6.Do you have any recent onset of headache or sore throat?</label><br>
+        <input type="radio" id="Q6" name="Q6" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q6" name="Q6" value="No">
+        <label for="No">No</label><br>
+        <label>7.Do you have any other flu-like symptoms?</label><br>
+        <input type="radio" id="Q7" name="Q7" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q7" name="Q7" value="No">
+        <label for="No">No</label><br>
+        <label>8.Do you have any recent loss of taste or smell?</label><br>
+        <input type="radio" id="Q8" name="Q8" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q8" name="Q8" value="No">
+        <label for="No">No</label><br>
+        <label>9.Have you experienced any recent GI upset or diarrhea?</label><br>
+        <input type="radio" id="Q9" name="Q9" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q9" name="Q9" value="No">
+        <label for="No">No</label><br>
+        <label>10.Are you in contact with anyone who has been confirmed
+            to be COVID-19 positive?</label><br>
+        <input type="radio" id="Q10" name="Q10" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q10" name="Q10" value="No">
+        <label for="No">No</label><br>
+        <label>11.Have you traveled in the past 14 days to any regions
+            affected by COVID-19?</label><br>
+        <input type="radio" id="Q11" name="Q11" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Q11" name="Q11" value="No">
+        <label for="No">No</label><br>
+        <label>Do you have:</label><br>
+        <input type="checkbox" id="" name="Q121" value="Heart">
+        <label for=""> Heart disease</label><br>
+        <input type="checkbox" id="" name="Q122" value="Lung">
+        <label for=""> Lung disease</label><br>
+        <input type="checkbox" id="" name="Q123" value="Kidney">
+        <label for=""> Kidney disease</label><br>
+        <input type="checkbox" id="" name="Q124" value="Diabetes">
+        <label for=""> Diabetes</label><br>
+        <input type="checkbox" id="" name="Q125" value="Autoimmune">
+        <label for=""> Autoimmune disorders</label><br>
+        <button type="button" onclick="regist();">SUBMIT</button>
+    </form>
+</div>
+</div>
+<div id="partic">
+<h1>
+Questionaire Participants
+</h1>
+<div class="Qpart" >
+<table id="myTable" style="width: 100%;">
+    <th>Firstname</th>
+    <th>Lastname</th>
+</table>
+<button type="button" onclick="gback();">Go Back</button>
+</div>
+</div>
+<script src="qe.js"></script>
+</body>
+</html>
